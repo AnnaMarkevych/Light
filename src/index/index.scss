@@ -1,0 +1,45 @@
+@import '../common/styles/_libs';
+@import '../common/styles/_base';
+.lighter {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  background: transparent;
+}
+.btn {
+  margin-top: 0.5rem;
+  //outline: inherit;
+  border: 1px solid black;
+  &.on {
+    background: green;
+  }
+  &.off {
+    background: red;
+  }
+}
+.red {
+  &.on {
+    background: red;
+  }
+}
+.yellow {
+  &.on {
+    background: yellow;
+  }
+}
+.green {
+  &.on {
+    background: green;
+  }
+}
